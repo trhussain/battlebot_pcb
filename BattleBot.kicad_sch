@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8180110a-9871-4b80-b187-54b8d0eb013b")
+	(paper "A5")
+	(lib_symbols)
+	(sheet
+		(at 66.04 24.13)
+		(size 30.48 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "46ad3009-c934-45aa-b4b2-bcc050df9b88")
+		(property "Sheetname" "ESP32_Cam"
+			(at 66.04 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32_Cam.kicad_sch"
+			(at 66.04 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BattleBot"
+				(path "/8180110a-9871-4b80-b187-54b8d0eb013b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 24.13)
+		(size 35.56 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d5d70269-1a3a-4941-8278-3b8ce5fdf254")
+		(property "Sheetname" "Main Drive "
+			(at 24.13 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main_Drive.kicad_sch"
+			(at 24.13 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BattleBot"
+				(path "/8180110a-9871-4b80-b187-54b8d0eb013b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
